@@ -3,7 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-
+import download from '../images/download.png'
 class Main extends React.Component {
   render() {
     let close = (
@@ -30,23 +30,21 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={download} alt="" />
           </span>
+          
           <p>
-            Hello, is anthony boston an full time developer part time sports fanatic <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          Hello my name is Anthony Boston I am developer located in the Atlanta area
+ 
+ I am a graduate of the  CodeBridge program at Per Scholas and the Web Development Immersive at General Assembly here in Atlanta.  The opportunity to learn to program has been a dream come true for me. As a former, I was ecstatic to learn the similarities in diagnosing opponents tape and debugging code 
+  
+ As a working professional, I found myself at a crossroads in my life where I was either going to work a job that I would just use to sustain myself or follow my passion and become a developer.  
+  
+  
+ I have found the world of web development to be this amazing place to learn and meet amazing people that have the same fervor growth and collaboration. I hope to meet work and learn from as many people as possible! 
+  
+ Please feel free to connect with many on any of my social media sites! 
+ 
           </p>
           {close}
         </article>
