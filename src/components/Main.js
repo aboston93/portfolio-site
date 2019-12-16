@@ -4,6 +4,10 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import download from '../images/download.png'
+import football from '../images/football.jpg'
+import gundam from '../images/gundam.jpg'
+import line from '../images/line.jpg'
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -58,14 +62,17 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={football} alt="" />
+            
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
+          My first project in at general assembly where i used vanilla java script html and css to create a football jeopardy game
+          </p>  
+          <img src={line} alt="" />
+          <p> using the mern stack i created a app that is supposed to help fantasy football players draft using a diffrent guide with alternate values.  </p>
+          <img src={gundam} alt="" />
+          <p>  A general assembly project used the MEHN stack to create a webapp that is anime fans to colloaborate and and reccomend anime  </p>
+          
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
