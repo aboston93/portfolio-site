@@ -36,19 +36,22 @@ class Main extends React.Component {
           <span className="image main">
             <img src={download} alt="" />
           </span>
-          
+
           <p>
-          Hello my name is Anthony Boston I am developer located in the Atlanta area
- 
- I am a graduate of the  CodeBridge program at Per Scholas and the Web Development Immersive at General Assembly here in Atlanta.  The opportunity to learn to program has been a dream come true for me. As a former, I was ecstatic to learn the similarities in diagnosing opponents tape and debugging code 
-  
- As a working professional, I found myself at a crossroads in my life where I was either going to work a job that I would just use to sustain myself or follow my passion and become a developer.  
-  
-  
- I have found the world of web development to be this amazing place to learn and meet amazing people that have the same fervor growth and collaboration. I hope to meet work and learn from as many people as possible! 
-  
- Please feel free to connect with many on any of my social media sites! 
- 
+            Hello my name is Anthony Boston I am developer located in the
+            Atlanta area I am a graduate of the CodeBridge program at Per
+            Scholas and the Web Development Immersive at General Assembly here
+            in Atlanta. The opportunity to learn to program has been a dream
+            come true for me. As a former, I was ecstatic to learn the
+            similarities in diagnosing opponents tape and debugging code As a
+            working professional, I found myself at a crossroads in my life
+            where I was either going to work a job that I would just use to
+            sustain myself or follow my passion and become a developer. I have
+            found the world of web development to be this amazing place to learn
+            and meet amazing people that have the same fervor growth and
+            collaboration. I hope to meet work and learn from as many people as
+            possible! Please feel free to connect with many on any of my social
+            media sites!
           </p>
           {close}
         </article>
@@ -63,25 +66,31 @@ class Main extends React.Component {
           <h2 className="major">Portfolio</h2>
           <span className="image main">
             <img src={football} alt="" />
-            
           </span>
           <p>
-          My first project in at general assembly where i used vanilla java script html and css to create a football jeopardy game
-          </p>  
-          <img src={line} alt="" />
-          <p> using the mern stack i created a app that is supposed to help fantasy football players draft using a diffrent guide with alternate values.  </p>
-          <img src={gundam} alt="" />
-          <p>  A general assembly project used the MEHN stack to create a webapp that is anime fans to colloaborate and and reccomend anime  </p>
-          
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            My first project in at general assembly where i used vanilla java
+            script html and css to create a football jeopardy game
           </p>
+          <img src={line} alt="" />
+          <p>
+            {' '}
+            using the mern stack i created a app that is supposed to help
+            fantasy football players draft using a diffrent guide with alternate
+            values.{' '}
+          </p>
+          <img src={gundam} alt="" />
+          <p>
+            {' '}
+            A general assembly project used the MEHN stack to create a webapp
+            that is anime fans to colloaborate and and reccomend anime{' '}
+          </p>
+
+          <p>
+            {' '}
+            Another project for general assembly the technologies i used to build this project are 
+            Django, React, Express, javascript, Node, Material-UI, and  CSS
+          </p>
+
           {close}
         </article>
 
@@ -97,7 +106,13 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-           Another project for general assembly  the technologies i used were Django React Express javascript Node Material UI CSS
+            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+            amet.
           </p>
           {close}
         </article>
