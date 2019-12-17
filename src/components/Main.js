@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+
 import pic03 from '../images/pic03.jpg'
 import download from '../images/download.png'
 import football from '../images/football.jpg'
@@ -72,6 +71,7 @@ class Main extends React.Component {
             My first project in at general assembly where i used vanilla java
             script html and css to create a football jeopardy game
           </p>
+          <span className="image main">
           <img src={line} alt="" />
           <p>
             {' '}
@@ -79,20 +79,24 @@ class Main extends React.Component {
             fantasy football players draft using a diffrent guide with alternate
             values.{' '}
           </p>
-          <img src={gundam} alt="" />
+          </span>
+          <span className="image main">
           <p>
             {' '}
             A general assembly project used the MEHN stack to create a webapp
             that is anime fans to colloaborate and and reccomend anime{' '}
           </p>
+          </span>
+          <span className="image main">
           <img src={calm} alt="" />
           <p>
+           
             {' '}
             Another project for general assembly the technologies i used to
             build this project are Django, React, Express, javascript, Node,
             Material-UI, and CSS
           </p>
-
+          </span>
           {close}
         </article>
 
