@@ -7,6 +7,7 @@ import download from '../images/download.png'
 import football from '../images/football.jpg'
 import gundam from '../images/gundam.jpg'
 import line from '../images/line.jpg'
+import calm from '../images/calm.jpg'
 
 class Main extends React.Component {
   render() {
@@ -84,7 +85,7 @@ class Main extends React.Component {
             A general assembly project used the MEHN stack to create a webapp
             that is anime fans to colloaborate and and reccomend anime{' '}
           </p>
-
+          <img src={calm} alt="" />
           <p>
             {' '}
             Another project for general assembly the technologies i used to
