@@ -87,8 +87,9 @@ class Main extends React.Component {
 
           <p>
             {' '}
-            Another project for general assembly the technologies i used to build this project are 
-            Django, React, Express, javascript, Node, Material-UI, and  CSS
+            Another project for general assembly the technologies i used to
+            build this project are Django, React, Express, javascript, Node,
+            Material-UI, and CSS
           </p>
 
           {close}
@@ -106,13 +107,13 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I was born in Chattanooga and raised in Atlanta Georgia. I grduated
+            from parkview high were i took ap computer science. We did most our
+            leaning in java after that i went to the University of tennesee
+            Chattanooga to continue my learning and play college football. I did
+            some self learning online using both udemy and code academy while i
+            worked multiple jobs. I than was accepted in to the per scholas code
+            bridge program where i studied web devlopemnt.
           </p>
           {close}
         </article>
@@ -150,25 +151,25 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href=""
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="  " className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/aboston93"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
