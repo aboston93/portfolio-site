@@ -24,7 +24,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "gatsby serve"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
