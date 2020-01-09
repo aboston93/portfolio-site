@@ -65,14 +65,14 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main">
-            <img src={football} alt="" />
+           <a href ="https://github.com/aboston93/project-1"> <img src={football} alt="" /></a>
           </span>
           <p>
             My first project in at general assembly where i used vanilla java
             script html and css to create a football jeopardy game
           </p>
           <span className="image main">
-          <img src={line} alt="" />
+          <a href="https://github.com/aboston93/Fantasy-Football-Draft-Helper"><img src={line} alt="" /></a>
           <p>
             {' '}
             using the mern stack i created a app that is supposed to help
@@ -88,7 +88,7 @@ class Main extends React.Component {
           </p>
           </span>
           <span className="image main">
-          <img src={calm} alt="" />
+          <a href="https://github.com/aboston93/project-4"><img src={calm} alt="" /></a>
           <p>
            
             {' '}
